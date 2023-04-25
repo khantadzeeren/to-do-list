@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  color: aliceblue;
+}
+
+.create {
+ 
+  height: 48px;
+  width: 327px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  margin-top: 40px;
+  padding-left: 20px;
+}
+.container {
+  min-height: 100vh;
+  padding-top: 48px;
+  background-image: url(./images/bg-mobile-light.jpg);
+  background-repeat: no-repeat;
+  background-color: #fafafa;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container.dark {
+  background-color: #171823;
+  background-image: url(./images/bg-mobile-dark.jpg);
+}
+
+.logo {
+  /* position: absolute;
+  margin-bottom: 30px ; */
+  width: 100%;
+  display: flex;
+  top: 48px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 26px;
+  padding-right: 24px;
+}
+.checkbox {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  border: 1px solid #e3e4f1;
+}
+.checkbox.active {
+  background: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
+}
+.inp {
+  outline: none;
+  border: none;
+  background-color: aliceblue;
+  margin-left: 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.main {
+ margin-top: 16px;
+  margin-left: 24px;
+ 
+  background-color: #ffffff;
+  
+  width: 327px;
+
+  border-radius: 5px;
+}
+.task-box {
+  height: 52px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.166667px;
+  color: #494c6b;
+  margin-left: 12px;
+}
+.delete {
+  margin-left: auto;
+}
+
+.same {
+  color: #e3e4f1;
+}
+.summary {
+  width: 327px;
+
+  height: 52px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9495a5;
+}
+.btn1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.166667px;
+  margin-left: 138px;
+  color: #9495a5;
+  border: none;
+}
+.choice {
+  height: 48px;
+  width: 327px;
+  border-radius: 5px;
+  display: flex;
+  margin-left: 24px;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 16px;
+}
+.btn2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #3a7cfd;
+  margin-left: 81px;
+  border: none;
+}
+.activ {
+  font-family: "Josefin Sans";
+  font-style: ormal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9495a5;
+  margin-left: 19px;
+  border: none;
+}
+.completed {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9495a5;
+  margin-left: 18px;
+  border: none;
+}
+.drag {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9495a5;
+  margin-left: 81px;
+  margin-top: 40px;
+}
